@@ -28,15 +28,15 @@ queen.ExibirDiscografia();
 Episodio ep1 = new(1,"Técnicas de facilitação", 45);
 ep1.AdicionarConvidados("Maria");
 ep1.AdicionarConvidados("Marcelo");
-Console.WriteLine(ep1.Resumo);
+//Console.WriteLine(ep1.Resumo);
 
 Episodio ep2 = new(2,"Técnicas de aprendizado", 67);
 ep2.AdicionarConvidados("Fernando");
 ep2.AdicionarConvidados("Marcos");
 ep2.AdicionarConvidados("Flavia");
-Console.WriteLine(ep2.Resumo);
+//Console.WriteLine(ep2.Resumo);
 
-Podcast podcast1 = new("Podcast especial", "Vinicius");
+Podcast podcast1 = new("Vinicius", "Podcast especial");
 podcast1.AdicionarEpisodio(ep1);
 podcast1.AdicionarEpisodio(ep2);
 podcast1.ExibirDetalhes();
